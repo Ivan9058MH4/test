@@ -4,6 +4,7 @@ function testFunc () {
 
     const test = 2;
     const vetka1 = 1;
+    const vetka2 = 2;
     return a+b+test+vetka1;
 }
 
