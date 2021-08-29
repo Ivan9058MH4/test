@@ -1,0 +1,7 @@
+const arr1 = [{name: 'opel', number:'11'}, {name: 'opel', number:'23'},{name: 'opel', number:'56'}]
+const arr2 = [34, null] 
+const f1 = (source, param, value) => 
+     source.filter((item) => item[param] == value);
+
+
+console.log(f1(arr1, 'number', 23))
